@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "zenrows": {
+      "type": "http",
+      "url": "https://mcp.zenrows.com/mcp",
+      "note": "Zenrows hosted MCP server for live web data. Requires OAuth: on first connection you sign in to your Zenrows account in the browser, so there is no API key to paste. Tools: scrape, extract, batch_*, crawl_*, browser_* and account_usage."
+    }
+  }
+}
