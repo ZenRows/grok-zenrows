@@ -49,7 +49,7 @@ Pages you ask Grok to fetch are retrieved by Zenrows, not by this plugin, so the
 ## Credentials and permissions
 
 - An OAuth token for your Zenrows account, scope `api`, obtained through the browser sign-in and stored by Grok in `~/.grok/mcp_credentials.json`. The plugin never reads or writes that file.
-- No API key, no environment variables, no hooks, no scripts, no filesystem access of its own. The plugin is a `.mcp.json` pointing at a hosted server, plus nine Markdown skills.
+- No API key, no environment variables, no hooks, and no code Grok runs. What Grok loads is a `.mcp.json` pointing at a hosted server, plus nine Markdown skills. The repository also carries `scripts/validate-plugin.py`, a development-time check that this repository's CI runs on each push; Grok neither loads nor executes it.
 - Two skills suggest that Grok save large result sets under `./.zenrows/` in the working directory, and only when the user asked for the data. Grok's own file-write permissions apply.
 
 ## Privacy

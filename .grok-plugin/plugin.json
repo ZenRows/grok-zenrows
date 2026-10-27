@@ -1,6 +1,6 @@
 {
   "name": "zenrows",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Live web data for Grok Build: fetch pages, extract structured data, run batch jobs and site crawls, and drive hosted browser sessions through the Zenrows MCP server. Sign in with your Zenrows account over OAuth on first connection; no API key to paste.",
   "author": {
     "name": "Zenrows",
@@ -9,6 +9,10 @@
   },
   "repository": "https://github.com/ZenRows/grok-zenrows",
   "homepage": "https://docs.zenrows.com",
+  "documentationUrl": "https://docs.zenrows.com/mcp/overview",
+  "supportUrl": "https://www.zenrows.com/contact",
+  "privacyPolicyUrl": "https://www.zenrows.com/legal/privacy",
+  "termsOfServiceUrl": "https://www.zenrows.com/legal/terms",
   "license": "MIT",
   "keywords": ["zenrows", "zen rows", "zenrows scraper"],
   "logo": "assets/logo.png"
